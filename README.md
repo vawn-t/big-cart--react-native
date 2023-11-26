@@ -12,7 +12,7 @@
 ## TEAM SIZE
 
 - 1 developer:
-  - [Van Tran](van.tran@asnet.com.vn)
+  - [Van Tran](vantran99dn@gmail.com)
 
 ## TARGETS
 
@@ -32,10 +32,6 @@
 - [React Query](https://tanstack.com/query/latest/docs/react/overview): React Query is often described as the missing data-fetching library for React.
 - [Husky](https://typicode.github.io/husky/)(v4.4.4): Husky improves your commits
 - [CommitLint](https://commitlint.js.org/#/)(v17.7.2): commitlint checks if your commit messages meet the conventional commit format.
-
-## REQUIREMENT DETAILS
-
-- Read more detail requirement in [here](https://vawn.notion.site/Van-Tran-react-next-js13-practice-982e96ee8e364e769590207155944b1a?pvs=4).
 
 ## PLATFORM
 
@@ -131,17 +127,17 @@
 
 Testing account: `van.tran@asnet.com.vn/!Asnet123` (This is a testing account, so please refrain from using the "forgot password" feature.)
 
-| Command                                                                                 | Action                                                                                                   |
-| --------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------- |
-| `git clone -b feature/big-cart git@gitlab.asoft-python.com:van.tran/react-training.git` | Clone project with specific branch                                                                       |
-| `pnpm install`                                                                          | Installs dependencies                                                                                    |
-| `echo "EXPO_PUBLIC_API_URL=https://vinmart-api.onrender.com/api/v1" >> .env`            | Add .env variable                                                                                        |
-| `pnpm ios`                                                                              | Build ios environment                                                                                    |
-| `pnpm start`                                                                            | Start local dev server                                                                                   |
-|                                                                                         | Development build `exp+react-training://expo-development-client/?url=http%3A%2F%2F172.16.129.167%3A8081` |
-|                                                                                         | Expo Go `exp://172.16.129.167:8081`                                                                      |
-| `pnpm storybook`                                                                        | Start storybook at `exp://172.16.129.167:8081`                                                           |
-| `pnpm test`                                                                             | Run unit test                                                                                            |
+| Command                                                                      | Action                                                                                                   |
+| ---------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------- |
+| `git clone https://github.com/vawn-t/big-cart--react-native-practice.git`    | Clone project with specific branch                                                                       |
+| `pnpm install`                                                               | Installs dependencies                                                                                    |
+| `echo "EXPO_PUBLIC_API_URL=https://vinmart-api.onrender.com/api/v1" >> .env` | Add .env variable                                                                                        |
+| `pnpm ios`                                                                   | Build ios environment                                                                                    |
+| `pnpm start`                                                                 | Start local dev server                                                                                   |
+|                                                                              | Development build `exp+react-training://expo-development-client/?url=http%3A%2F%2F172.16.129.167%3A8081` |
+|                                                                              | Expo Go `exp://172.16.129.167:8081`                                                                      |
+| `pnpm storybook`                                                             | Start storybook at `exp://172.16.129.167:8081`                                                           |
+| `pnpm test`                                                                  | Run unit test                                                                                            |
 
 ## Improvement needed
 
