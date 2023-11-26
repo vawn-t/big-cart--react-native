@@ -1,0 +1,360 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ShoppingCart component renders correctly 1`] = `
+<RNCSafeAreaProvider
+  onInsetsChange={[Function]}
+  style={
+    [
+      {
+        "flex": 1,
+      },
+      undefined,
+    ]
+  }
+>
+  <RNSScreenStack
+    style={
+      {
+        "flex": 1,
+      }
+    }
+  >
+    <RNSScreen
+      collapsable={false}
+      gestureResponseDistance={
+        {
+          "bottom": -1,
+          "end": -1,
+          "start": -1,
+          "top": -1,
+        }
+      }
+      nativeBackButtonDismissalEnabled={false}
+      onAppear={[Function]}
+      onDisappear={[Function]}
+      onDismissed={[Function]}
+      onHeaderBackButtonClicked={[Function]}
+      onNativeDismissCancelled={[Function]}
+      onTransitionProgress={[Function]}
+      onWillDisappear={[Function]}
+      replaceAnimation="push"
+      sheetAllowedDetents="large"
+      sheetCornerRadius={-1}
+      sheetExpandsWhenScrolledToEdge={true}
+      sheetGrabberVisible={false}
+      sheetLargestUndimmedDetent="all"
+      stackPresentation="push"
+      style={
+        {
+          "bottom": 0,
+          "left": 0,
+          "position": "absolute",
+          "right": 0,
+          "top": 0,
+        }
+      }
+      swipeDirection="horizontal"
+    >
+      <View
+        accessibilityElementsHidden={false}
+        importantForAccessibility="auto"
+        style={
+          {
+            "flex": 1,
+            "flexDirection": "column-reverse",
+          }
+        }
+      >
+        <View
+          collapsable={false}
+          style={
+            [
+              {
+                "flex": 1,
+              },
+              {
+                "backgroundColor": "rgb(242, 242, 242)",
+              },
+              undefined,
+            ]
+          }
+        >
+          <View
+            style={
+              {
+                "alignItems": "center",
+                "backgroundColor": "#F4F5F9",
+                "flex": 1,
+                "justifyContent": "space-between",
+              }
+            }
+          >
+            <RCTScrollView
+              contentContainerStyle={
+                {
+                  "backgroundColor": "#F4F5F9",
+                  "paddingTop": 20,
+                  "rowGap": 15,
+                }
+              }
+              data={[]}
+              getItem={[Function]}
+              getItemCount={[Function]}
+              horizontal={false}
+              keyExtractor={[Function]}
+              onContentSizeChange={[Function]}
+              onLayout={[Function]}
+              onMomentumScrollBegin={[Function]}
+              onMomentumScrollEnd={[Function]}
+              onScroll={[Function]}
+              onScrollBeginDrag={[Function]}
+              onScrollEndDrag={[Function]}
+              removeClippedSubviews={false}
+              renderItem={[Function]}
+              scrollEventThrottle={50}
+              stickyHeaderIndices={[]}
+              viewabilityConfigCallbackPairs={[]}
+            >
+              <View />
+            </RCTScrollView>
+            <View
+              style={
+                {
+                  "backgroundColor": "#FFFFFF",
+                  "paddingHorizontal": 15,
+                  "width": "100%",
+                }
+              }
+            >
+              <View
+                style={
+                  {
+                    "borderBottomColor": "#EBEBEB",
+                    "borderBottomWidth": 1,
+                    "paddingVertical": 20,
+                    "rowGap": 5,
+                  }
+                }
+              >
+                <View
+                  style={
+                    {
+                      "flexDirection": "row",
+                      "justifyContent": "space-between",
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      [
+                        {
+                          "color": "#868889",
+                        },
+                        {
+                          "fontFamily": "Poppins-Medium",
+                        },
+                        {
+                          "fontSize": 12,
+                        },
+                        undefined,
+                      ]
+                    }
+                  >
+                    Subtotal
+                  </Text>
+                  <Text
+                    style={
+                      [
+                        {
+                          "color": "#868889",
+                        },
+                        {
+                          "fontFamily": "Poppins-Medium",
+                        },
+                        {
+                          "fontSize": 12,
+                        },
+                        undefined,
+                      ]
+                    }
+                  >
+                    $0
+                  </Text>
+                </View>
+                <View
+                  style={
+                    {
+                      "flexDirection": "row",
+                      "justifyContent": "space-between",
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      [
+                        {
+                          "color": "#868889",
+                        },
+                        {
+                          "fontFamily": "Poppins-Medium",
+                        },
+                        {
+                          "fontSize": 12,
+                        },
+                        undefined,
+                      ]
+                    }
+                  >
+                    Shipping charges
+                  </Text>
+                  <Text
+                    style={
+                      [
+                        {
+                          "color": "#868889",
+                        },
+                        {
+                          "fontFamily": "Poppins-Medium",
+                        },
+                        {
+                          "fontSize": 12,
+                        },
+                        undefined,
+                      ]
+                    }
+                  >
+                    $0.00
+                  </Text>
+                </View>
+              </View>
+              <View
+                style={
+                  {
+                    "flexDirection": "row",
+                    "justifyContent": "space-between",
+                    "paddingVertical": 10,
+                  }
+                }
+              >
+                <Text
+                  style={
+                    [
+                      {
+                        "color": "#000000",
+                      },
+                      {
+                        "fontFamily": "Poppins-SemiBold",
+                      },
+                      {
+                        "fontSize": 20,
+                      },
+                      undefined,
+                    ]
+                  }
+                >
+                  Total
+                </Text>
+                <Text
+                  style={
+                    [
+                      {
+                        "color": "#000000",
+                      },
+                      {
+                        "fontFamily": "Poppins-SemiBold",
+                      },
+                      {
+                        "fontSize": 20,
+                      },
+                      undefined,
+                    ]
+                  }
+                >
+                  $0
+                </Text>
+              </View>
+              <View
+                accessibilityValue={
+                  {
+                    "max": undefined,
+                    "min": undefined,
+                    "now": undefined,
+                    "text": undefined,
+                  }
+                }
+                accessible={true}
+                focusable={true}
+                onClick={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  [
+                    {
+                      "alignItems": "center",
+                      "backgroundColor": "#6CC51D",
+                      "borderRadius": 5,
+                      "flexDirection": "row",
+                    },
+                    null,
+                    undefined,
+                  ]
+                }
+              >
+                <View
+                  style={
+                    {
+                      "flexGrow": 1,
+                      "paddingVertical": 20,
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      [
+                        {
+                          "color": "#000000",
+                        },
+                        {
+                          "fontFamily": "Poppins-SemiBold",
+                        },
+                        {
+                          "fontSize": 15,
+                        },
+                        {
+                          "color": "#FFFFFF",
+                          "textAlign": "center",
+                        },
+                      ]
+                    }
+                  >
+                    Checkout
+                  </Text>
+                </View>
+              </View>
+            </View>
+          </View>
+        </View>
+      </View>
+      <RNSScreenStackHeaderConfig
+        backButtonInCustomView={false}
+        backTitleVisible={true}
+        backgroundColor="rgb(255, 255, 255)"
+        color="rgb(0, 122, 255)"
+        direction="ltr"
+        disableBackButtonMenu={false}
+        hidden={false}
+        hideBackButton={false}
+        largeTitleHideShadow={false}
+        title="test"
+        titleColor="rgb(28, 28, 30)"
+        topInsetEnabled={false}
+        translucent={false}
+      />
+    </RNSScreen>
+  </RNSScreenStack>
+</RNCSafeAreaProvider>
+`;

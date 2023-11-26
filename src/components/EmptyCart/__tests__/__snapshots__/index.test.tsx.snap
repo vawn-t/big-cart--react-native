@@ -1,0 +1,269 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EmptyCart component renders correctly 1`] = `
+<RNCSafeAreaProvider
+  onInsetsChange={[Function]}
+  style={
+    [
+      {
+        "flex": 1,
+      },
+      undefined,
+    ]
+  }
+>
+  <RNSScreenStack
+    style={
+      {
+        "flex": 1,
+      }
+    }
+  >
+    <RNSScreen
+      collapsable={false}
+      gestureResponseDistance={
+        {
+          "bottom": -1,
+          "end": -1,
+          "start": -1,
+          "top": -1,
+        }
+      }
+      nativeBackButtonDismissalEnabled={false}
+      onAppear={[Function]}
+      onDisappear={[Function]}
+      onDismissed={[Function]}
+      onHeaderBackButtonClicked={[Function]}
+      onNativeDismissCancelled={[Function]}
+      onTransitionProgress={[Function]}
+      onWillDisappear={[Function]}
+      replaceAnimation="push"
+      sheetAllowedDetents="large"
+      sheetCornerRadius={-1}
+      sheetExpandsWhenScrolledToEdge={true}
+      sheetGrabberVisible={false}
+      sheetLargestUndimmedDetent="all"
+      stackPresentation="push"
+      style={
+        {
+          "bottom": 0,
+          "left": 0,
+          "position": "absolute",
+          "right": 0,
+          "top": 0,
+        }
+      }
+      swipeDirection="horizontal"
+    >
+      <View
+        accessibilityElementsHidden={false}
+        importantForAccessibility="auto"
+        style={
+          {
+            "flex": 1,
+            "flexDirection": "column-reverse",
+          }
+        }
+      >
+        <View
+          collapsable={false}
+          style={
+            [
+              {
+                "flex": 1,
+              },
+              {
+                "backgroundColor": "rgb(242, 242, 242)",
+              },
+              undefined,
+            ]
+          }
+        >
+          <View
+            style={
+              {
+                "flex": 1,
+                "marginHorizontal": 15,
+              }
+            }
+          >
+            <View
+              style={
+                {
+                  "alignItems": "center",
+                  "flex": 1,
+                  "justifyContent": "center",
+                  "paddingHorizontal": 35,
+                  "rowGap": 35,
+                }
+              }
+            >
+              <RNSVGSvgView
+                bbHeight="115"
+                bbWidth="99"
+                fill="none"
+                focusable={false}
+                height={115}
+                style={
+                  [
+                    {
+                      "backgroundColor": "transparent",
+                      "borderWidth": 0,
+                    },
+                    {
+                      "flex": 0,
+                      "height": 115,
+                      "width": 99,
+                    },
+                  ]
+                }
+                width={99}
+              >
+                <RNSVGGroup
+                  fill={null}
+                  propList={
+                    [
+                      "fill",
+                    ]
+                  }
+                >
+                  <RNSVGPath
+                    d="m98.975 99.408-7.083-74.15c-.151-1.646-1.644-2.893-3.389-2.893h-14.57C73.732 9.995 62.856 0 49.5 0S25.268 9.995 25.066 22.365h-14.57c-1.77 0-3.237 1.247-3.388 2.893L.025 99.408c0 .094-.025.188-.025.282C0 108.133 8.322 115 18.566 115h61.868C90.678 115 99 108.133 99 99.69c0-.094 0-.188-.025-.282ZM49.5 6.35c9.586 0 17.402 7.149 17.605 16.015h-35.21C32.099 13.499 39.914 6.35 49.5 6.35Zm30.934 102.3H18.566c-6.425 0-11.635-3.951-11.737-8.819l6.78-71.093H25.04v9.642c0 1.764 1.517 3.175 3.415 3.175 1.897 0 3.414-1.41 3.414-3.175v-9.642h35.235v9.642c0 1.764 1.517 3.175 3.414 3.175 1.897 0 3.415-1.41 3.415-3.175v-9.642h11.433l6.804 71.093c-.102 4.868-5.337 8.819-11.737 8.819Z"
+                    fill={
+                      {
+                        "payload": 4285318429,
+                        "type": 0,
+                      }
+                    }
+                    propList={
+                      [
+                        "fill",
+                      ]
+                    }
+                  />
+                </RNSVGGroup>
+              </RNSVGSvgView>
+              <Text
+                style={
+                  [
+                    {
+                      "color": "#000000",
+                    },
+                    {
+                      "fontFamily": "Poppins-SemiBold",
+                    },
+                    {
+                      "fontSize": 20,
+                    },
+                    undefined,
+                  ]
+                }
+              >
+                Your cart is empty !
+              </Text>
+              <Text
+                style={
+                  [
+                    {
+                      "color": "#868889",
+                    },
+                    {
+                      "fontFamily": "Poppins-Regular",
+                    },
+                    {
+                      "fontSize": 15,
+                    },
+                    {
+                      "marginHorizontal": 15,
+                      "textAlign": "center",
+                    },
+                  ]
+                }
+              >
+                You will get a response within a few minutes.
+              </Text>
+            </View>
+            <View
+              accessibilityValue={
+                {
+                  "max": undefined,
+                  "min": undefined,
+                  "now": undefined,
+                  "text": undefined,
+                }
+              }
+              accessible={true}
+              focusable={true}
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                [
+                  {
+                    "alignItems": "center",
+                    "backgroundColor": "#6CC51D",
+                    "borderRadius": 5,
+                    "flexDirection": "row",
+                  },
+                  null,
+                  undefined,
+                ]
+              }
+            >
+              <View
+                style={
+                  {
+                    "flexGrow": 1,
+                    "paddingVertical": 20,
+                  }
+                }
+              >
+                <Text
+                  style={
+                    [
+                      {
+                        "color": "#000000",
+                      },
+                      {
+                        "fontFamily": "Poppins-SemiBold",
+                      },
+                      {
+                        "fontSize": 15,
+                      },
+                      {
+                        "color": "#FFFFFF",
+                        "textAlign": "center",
+                      },
+                    ]
+                  }
+                >
+                  Start shopping
+                </Text>
+              </View>
+            </View>
+          </View>
+        </View>
+      </View>
+      <RNSScreenStackHeaderConfig
+        backButtonInCustomView={false}
+        backTitleVisible={true}
+        backgroundColor="rgb(255, 255, 255)"
+        color="rgb(0, 122, 255)"
+        direction="ltr"
+        disableBackButtonMenu={false}
+        hidden={false}
+        hideBackButton={false}
+        largeTitleHideShadow={false}
+        title="test"
+        titleColor="rgb(28, 28, 30)"
+        topInsetEnabled={false}
+        translucent={false}
+      />
+    </RNSScreen>
+  </RNSScreenStack>
+</RNCSafeAreaProvider>
+`;

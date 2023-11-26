@@ -1,0 +1,624 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProductInfo component renders correctly 1`] = `
+<RNCSafeAreaProvider
+  onInsetsChange={[Function]}
+  style={
+    [
+      {
+        "flex": 1,
+      },
+      undefined,
+    ]
+  }
+>
+  <RNSScreenStack
+    style={
+      {
+        "flex": 1,
+      }
+    }
+  >
+    <RNSScreen
+      collapsable={false}
+      gestureResponseDistance={
+        {
+          "bottom": -1,
+          "end": -1,
+          "start": -1,
+          "top": -1,
+        }
+      }
+      nativeBackButtonDismissalEnabled={false}
+      onAppear={[Function]}
+      onDisappear={[Function]}
+      onDismissed={[Function]}
+      onHeaderBackButtonClicked={[Function]}
+      onNativeDismissCancelled={[Function]}
+      onTransitionProgress={[Function]}
+      onWillDisappear={[Function]}
+      replaceAnimation="push"
+      sheetAllowedDetents="large"
+      sheetCornerRadius={-1}
+      sheetExpandsWhenScrolledToEdge={true}
+      sheetGrabberVisible={false}
+      sheetLargestUndimmedDetent="all"
+      stackPresentation="push"
+      style={
+        {
+          "bottom": 0,
+          "left": 0,
+          "position": "absolute",
+          "right": 0,
+          "top": 0,
+        }
+      }
+      swipeDirection="horizontal"
+    >
+      <View
+        accessibilityElementsHidden={false}
+        importantForAccessibility="auto"
+        style={
+          {
+            "flex": 1,
+            "flexDirection": "column-reverse",
+          }
+        }
+      >
+        <View
+          collapsable={false}
+          style={
+            [
+              {
+                "flex": 1,
+              },
+              {
+                "backgroundColor": "rgb(242, 242, 242)",
+              },
+              undefined,
+            ]
+          }
+        >
+          <View
+            style={
+              {
+                "alignItems": "center",
+                "backgroundColor": "#F4F5F9",
+                "borderTopEndRadius": 10,
+                "borderTopStartRadius": 10,
+                "flex": 1,
+                "paddingHorizontal": 15,
+                "paddingVertical": 20,
+                "rowGap": 25,
+              }
+            }
+          >
+            <View
+              style={
+                {
+                  "alignSelf": "flex-start",
+                  "rowGap": 5,
+                }
+              }
+            >
+              <Text
+                style={
+                  [
+                    {
+                      "color": "#868889",
+                    },
+                    {
+                      "fontFamily": "Poppins-SemiBold",
+                    },
+                    {
+                      "fontSize": 15,
+                    },
+                    {
+                      "color": "#6CC51D",
+                    },
+                  ]
+                }
+              >
+                $10
+              </Text>
+              <Text
+                style={
+                  [
+                    {
+                      "color": "#000000",
+                    },
+                    {
+                      "fontFamily": "Poppins-SemiBold",
+                    },
+                    {
+                      "fontSize": 20,
+                    },
+                    undefined,
+                  ]
+                }
+              >
+                Sample Product
+              </Text>
+              <Text
+                style={
+                  [
+                    {
+                      "color": "#868889",
+                    },
+                    {
+                      "fontFamily": "Poppins-Medium",
+                    },
+                    {
+                      "fontSize": 12,
+                    },
+                    undefined,
+                  ]
+                }
+              />
+            </View>
+            <Text
+              numberOfLines={6}
+              style={
+                [
+                  {
+                    "color": "#868889",
+                  },
+                  {
+                    "fontFamily": "Poppins-Regular",
+                  },
+                  {
+                    "fontSize": 12,
+                  },
+                  {
+                    "lineHeight": 18,
+                    "width": "100%",
+                  },
+                ]
+              }
+            >
+              A sample product description
+            </Text>
+            <View
+              style={
+                {
+                  "bottom": 40,
+                  "position": "absolute",
+                  "rowGap": 10,
+                  "width": "100%",
+                }
+              }
+            >
+              <View
+                style={
+                  {
+                    "alignItems": "center",
+                    "backgroundColor": "#FFFFFF",
+                    "borderRadius": 5,
+                    "flexDirection": "row",
+                    "justifyContent": "space-between",
+                    "paddingLeft": 15,
+                  }
+                }
+              >
+                <Text
+                  style={
+                    [
+                      {
+                        "color": "#868889",
+                      },
+                      {
+                        "fontFamily": "Poppins-Regular",
+                      },
+                      {
+                        "fontSize": 12,
+                      },
+                      undefined,
+                    ]
+                  }
+                >
+                  Quantity
+                </Text>
+                <View
+                  style={
+                    {
+                      "alignItems": "center",
+                      "flexDirection": "row",
+                    }
+                  }
+                >
+                  <View
+                    accessibilityState={
+                      {
+                        "busy": undefined,
+                        "checked": undefined,
+                        "disabled": undefined,
+                        "expanded": undefined,
+                        "selected": undefined,
+                      }
+                    }
+                    accessibilityValue={
+                      {
+                        "max": undefined,
+                        "min": undefined,
+                        "now": undefined,
+                        "text": undefined,
+                      }
+                    }
+                    accessible={true}
+                    collapsable={false}
+                    focusable={true}
+                    hitSlop={
+                      {
+                        "bottom": 10,
+                        "left": 10,
+                        "right": 10,
+                        "top": 10,
+                      }
+                    }
+                    onClick={[Function]}
+                    onResponderGrant={[Function]}
+                    onResponderMove={[Function]}
+                    onResponderRelease={[Function]}
+                    onResponderTerminate={[Function]}
+                    onResponderTerminationRequest={[Function]}
+                    onStartShouldSetResponder={[Function]}
+                    style={
+                      {
+                        "alignItems": "center",
+                        "justifyContent": "center",
+                        "opacity": 1,
+                        "width": 48,
+                      }
+                    }
+                    testID="decrease-quantity"
+                  >
+                    <RNSVGSvgView
+                      bbHeight="24"
+                      bbWidth="24"
+                      fill="none"
+                      focusable={false}
+                      height={24}
+                      style={
+                        [
+                          {
+                            "backgroundColor": "transparent",
+                            "borderWidth": 0,
+                          },
+                          {
+                            "flex": 0,
+                            "height": 24,
+                            "width": 24,
+                          },
+                        ]
+                      }
+                      width={24}
+                    >
+                      <RNSVGGroup
+                        fill={null}
+                        propList={
+                          [
+                            "fill",
+                          ]
+                        }
+                      >
+                        <RNSVGPath
+                          d="M6 12h12"
+                          fill={
+                            {
+                              "payload": 4278190080,
+                              "type": 0,
+                            }
+                          }
+                          propList={
+                            [
+                              "stroke",
+                              "strokeWidth",
+                              "strokeLinecap",
+                              "strokeLinejoin",
+                            ]
+                          }
+                          stroke={
+                            {
+                              "payload": 4285318429,
+                              "type": 0,
+                            }
+                          }
+                          strokeLinecap={1}
+                          strokeLinejoin={1}
+                          strokeWidth="1.5"
+                        />
+                      </RNSVGGroup>
+                    </RNSVGSvgView>
+                  </View>
+                  <View
+                    style={
+                      [
+                        {
+                          "alignItems": "center",
+                          "justifyContent": "center",
+                          "width": 48,
+                        },
+                        {
+                          "borderColor": "#EBEBEB",
+                          "borderLeftWidth": 1,
+                          "borderRightWidth": 1,
+                          "paddingVertical": 10,
+                        },
+                      ]
+                    }
+                  >
+                    <Text
+                      style={
+                        [
+                          {
+                            "color": "#000000",
+                          },
+                          {
+                            "fontFamily": "Poppins-Medium",
+                          },
+                          {
+                            "fontSize": 20,
+                          },
+                          undefined,
+                        ]
+                      }
+                    >
+                      1
+                    </Text>
+                  </View>
+                  <View
+                    accessibilityState={
+                      {
+                        "busy": undefined,
+                        "checked": undefined,
+                        "disabled": undefined,
+                        "expanded": undefined,
+                        "selected": undefined,
+                      }
+                    }
+                    accessibilityValue={
+                      {
+                        "max": undefined,
+                        "min": undefined,
+                        "now": undefined,
+                        "text": undefined,
+                      }
+                    }
+                    accessible={true}
+                    collapsable={false}
+                    focusable={true}
+                    hitSlop={
+                      {
+                        "bottom": 10,
+                        "left": 10,
+                        "right": 10,
+                        "top": 10,
+                      }
+                    }
+                    onClick={[Function]}
+                    onResponderGrant={[Function]}
+                    onResponderMove={[Function]}
+                    onResponderRelease={[Function]}
+                    onResponderTerminate={[Function]}
+                    onResponderTerminationRequest={[Function]}
+                    onStartShouldSetResponder={[Function]}
+                    style={
+                      {
+                        "alignItems": "center",
+                        "justifyContent": "center",
+                        "opacity": 1,
+                        "width": 48,
+                      }
+                    }
+                    testID="add-quantity"
+                  >
+                    <RNSVGSvgView
+                      bbHeight="24"
+                      bbWidth="24"
+                      fill="none"
+                      focusable={false}
+                      height={24}
+                      style={
+                        [
+                          {
+                            "backgroundColor": "transparent",
+                            "borderWidth": 0,
+                          },
+                          {
+                            "flex": 0,
+                            "height": 24,
+                            "width": 24,
+                          },
+                        ]
+                      }
+                      width={24}
+                    >
+                      <RNSVGGroup
+                        fill={null}
+                        propList={
+                          [
+                            "fill",
+                          ]
+                        }
+                      >
+                        <RNSVGPath
+                          d="M6 12h12M12 18V6"
+                          fill={
+                            {
+                              "payload": 4278190080,
+                              "type": 0,
+                            }
+                          }
+                          propList={
+                            [
+                              "stroke",
+                              "strokeWidth",
+                              "strokeLinecap",
+                              "strokeLinejoin",
+                            ]
+                          }
+                          stroke={
+                            {
+                              "payload": 4285318429,
+                              "type": 0,
+                            }
+                          }
+                          strokeLinecap={1}
+                          strokeLinejoin={1}
+                          strokeWidth="1.5"
+                        />
+                      </RNSVGGroup>
+                    </RNSVGSvgView>
+                  </View>
+                </View>
+              </View>
+              <View
+                accessibilityState={
+                  {
+                    "disabled": false,
+                  }
+                }
+                accessibilityValue={
+                  {
+                    "max": undefined,
+                    "min": undefined,
+                    "now": undefined,
+                    "text": undefined,
+                  }
+                }
+                accessible={true}
+                focusable={true}
+                onClick={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  [
+                    {
+                      "alignItems": "center",
+                      "backgroundColor": "#6CC51D",
+                      "borderRadius": 5,
+                      "flexDirection": "row",
+                    },
+                    null,
+                    undefined,
+                  ]
+                }
+              >
+                <View
+                  style={
+                    {
+                      "flexGrow": 1,
+                      "paddingVertical": 20,
+                    }
+                  }
+                >
+                  <View
+                    style={
+                      {
+                        "alignItems": "flex-start",
+                        "bottom": 0,
+                        "justifyContent": "center",
+                        "left": 30,
+                        "position": "absolute",
+                        "right": 0,
+                        "top": 0,
+                      }
+                    }
+                  >
+                    <RNSVGSvgView
+                      bbHeight="25"
+                      bbWidth="21"
+                      fill="none"
+                      focusable={false}
+                      height={25}
+                      style={
+                        [
+                          {
+                            "backgroundColor": "transparent",
+                            "borderWidth": 0,
+                          },
+                          {
+                            "flex": 0,
+                            "height": 25,
+                            "width": 21,
+                          },
+                        ]
+                      }
+                      testID="Button-icon"
+                      width={21}
+                    >
+                      <RNSVGGroup
+                        fill={null}
+                        propList={
+                          [
+                            "fill",
+                          ]
+                        }
+                      >
+                        <RNSVGPath
+                          d="M20.995 21.61 19.492 5.49c-.032-.357-.348-.628-.719-.628h-3.09C15.64 2.172 13.333 0 10.5 0 7.667 0 5.36 2.173 5.317 4.862h-3.09a.707.707 0 0 0-.72.629L.006 21.61c0 .02-.005.04-.005.06C0 23.508 1.765 25 3.938 25h13.124C19.235 25 21 23.507 21 21.672c0-.02 0-.041-.005-.062ZM10.5 1.38c2.034 0 3.691 1.555 3.734 3.482H6.766c.043-1.927 1.7-3.482 3.734-3.482Zm6.562 22.24H3.938c-1.363 0-2.468-.86-2.49-1.918L2.888 6.248h2.425v2.097c0 .383.322.69.724.69.402 0 .724-.307.724-.69V6.247h7.474v2.097c0 .383.322.69.725.69.402 0 .724-.307.724-.69V6.247h2.425l1.443 15.456c-.021 1.058-1.132 1.917-2.49 1.917Z"
+                          fill={
+                            {
+                              "payload": 4294967295,
+                              "type": 0,
+                            }
+                          }
+                          propList={
+                            [
+                              "fill",
+                            ]
+                          }
+                        />
+                      </RNSVGGroup>
+                    </RNSVGSvgView>
+                  </View>
+                  <Text
+                    style={
+                      [
+                        {
+                          "color": "#000000",
+                        },
+                        {
+                          "fontFamily": "Poppins-SemiBold",
+                        },
+                        {
+                          "fontSize": 15,
+                        },
+                        {
+                          "color": "#FFFFFF",
+                          "textAlign": "center",
+                        },
+                      ]
+                    }
+                  >
+                    Add to cart
+                  </Text>
+                </View>
+              </View>
+            </View>
+          </View>
+        </View>
+      </View>
+      <RNSScreenStackHeaderConfig
+        backButtonInCustomView={false}
+        backTitleVisible={true}
+        backgroundColor="rgb(255, 255, 255)"
+        color="rgb(0, 122, 255)"
+        direction="ltr"
+        disableBackButtonMenu={false}
+        hidden={false}
+        hideBackButton={false}
+        largeTitleHideShadow={false}
+        title="test"
+        titleColor="rgb(28, 28, 30)"
+        topInsetEnabled={false}
+        translucent={false}
+      />
+    </RNSScreen>
+  </RNSScreenStack>
+</RNCSafeAreaProvider>
+`;

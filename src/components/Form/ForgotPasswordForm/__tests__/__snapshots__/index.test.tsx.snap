@@ -1,0 +1,304 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ForgotPasswordForm component renders correctly 1`] = `
+<RNCSafeAreaProvider
+  onInsetsChange={[Function]}
+  style={
+    [
+      {
+        "flex": 1,
+      },
+      undefined,
+    ]
+  }
+>
+  <RNSScreenStack
+    style={
+      {
+        "flex": 1,
+      }
+    }
+  >
+    <RNSScreen
+      collapsable={false}
+      gestureResponseDistance={
+        {
+          "bottom": -1,
+          "end": -1,
+          "start": -1,
+          "top": -1,
+        }
+      }
+      nativeBackButtonDismissalEnabled={false}
+      onAppear={[Function]}
+      onDisappear={[Function]}
+      onDismissed={[Function]}
+      onHeaderBackButtonClicked={[Function]}
+      onNativeDismissCancelled={[Function]}
+      onTransitionProgress={[Function]}
+      onWillDisappear={[Function]}
+      replaceAnimation="push"
+      sheetAllowedDetents="large"
+      sheetCornerRadius={-1}
+      sheetExpandsWhenScrolledToEdge={true}
+      sheetGrabberVisible={false}
+      sheetLargestUndimmedDetent="all"
+      stackPresentation="push"
+      style={
+        {
+          "bottom": 0,
+          "left": 0,
+          "position": "absolute",
+          "right": 0,
+          "top": 0,
+        }
+      }
+      swipeDirection="horizontal"
+    >
+      <View
+        accessibilityElementsHidden={false}
+        importantForAccessibility="auto"
+        style={
+          {
+            "flex": 1,
+            "flexDirection": "column-reverse",
+          }
+        }
+      >
+        <View
+          collapsable={false}
+          style={
+            [
+              {
+                "flex": 1,
+              },
+              {
+                "backgroundColor": "rgb(242, 242, 242)",
+              },
+              undefined,
+            ]
+          }
+        >
+          <View
+            style={
+              {
+                "rowGap": 15,
+              }
+            }
+          >
+            <View
+              style={
+                [
+                  {
+                    "alignItems": "center",
+                    "backgroundColor": "#FFFFFF",
+                    "borderColor": "#FFFFFF",
+                    "borderRadius": 5,
+                    "borderWidth": 1,
+                    "flexDirection": "row",
+                  },
+                  undefined,
+                  null,
+                ]
+              }
+              testID="Input"
+            >
+              <View
+                style={
+                  {
+                    "flex": 1,
+                    "paddingHorizontal": 28,
+                  }
+                }
+              >
+                <RNSVGSvgView
+                  bbHeight="19"
+                  bbWidth="23"
+                  fill="none"
+                  focusable={false}
+                  height={19}
+                  style={
+                    [
+                      {
+                        "backgroundColor": "transparent",
+                        "borderWidth": 0,
+                      },
+                      {
+                        "flex": 0,
+                        "height": 19,
+                        "width": 23,
+                      },
+                    ]
+                  }
+                  width={23}
+                >
+                  <RNSVGGroup
+                    fill={null}
+                    propList={
+                      [
+                        "fill",
+                      ]
+                    }
+                  >
+                    <RNSVGPath
+                      d="M20.979.523H2.02A2.025 2.025 0 0 0 0 2.545V16.02c0 1.111.904 2.022 2.021 2.022h18.957c1.111 0 2.022-.904 2.022-2.021V2.544c0-1.11-.904-2.022-2.021-2.022Zm-.28 1.348-9.156 9.157L2.307 1.87H20.7ZM1.348 15.742V2.818l6.49 6.434-6.49 6.49Zm.953.953 6.494-6.494 2.275 2.256c.264.261.69.26.951-.002l2.22-2.219 6.458 6.46H2.301Zm19.351-.953-6.459-6.459 6.46-6.459v12.918Z"
+                      fill={
+                        {
+                          "payload": 4287006857,
+                          "type": 0,
+                        }
+                      }
+                      propList={
+                        [
+                          "fill",
+                        ]
+                      }
+                    />
+                  </RNSVGGroup>
+                </RNSVGSvgView>
+              </View>
+              <TextInput
+                autoComplete="email"
+                keyboardType="email-address"
+                onChangeText={[Function]}
+                placeholder="Email Address"
+                secureTextEntry={false}
+                style={
+                  [
+                    {
+                      "flex": 10,
+                      "paddingVertical": 20,
+                    },
+                    undefined,
+                  ]
+                }
+                testID="Input-TextInput"
+              />
+              <View
+                accessibilityState={
+                  {
+                    "busy": undefined,
+                    "checked": undefined,
+                    "disabled": undefined,
+                    "expanded": undefined,
+                    "selected": undefined,
+                  }
+                }
+                accessibilityValue={
+                  {
+                    "max": undefined,
+                    "min": undefined,
+                    "now": undefined,
+                    "text": undefined,
+                  }
+                }
+                accessible={true}
+                collapsable={false}
+                focusable={true}
+                onClick={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  {
+                    "flex": 1,
+                    "opacity": 1,
+                    "paddingHorizontal": 28,
+                  }
+                }
+              />
+            </View>
+            <View
+              accessibilityState={
+                {
+                  "disabled": true,
+                }
+              }
+              accessibilityValue={
+                {
+                  "max": undefined,
+                  "min": undefined,
+                  "now": undefined,
+                  "text": undefined,
+                }
+              }
+              accessible={true}
+              focusable={true}
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                [
+                  {
+                    "alignItems": "center",
+                    "backgroundColor": "#6CC51D",
+                    "borderRadius": 5,
+                    "flexDirection": "row",
+                  },
+                  {
+                    "opacity": 0.5,
+                  },
+                  undefined,
+                ]
+              }
+            >
+              <View
+                style={
+                  {
+                    "flexGrow": 1,
+                    "paddingVertical": 20,
+                  }
+                }
+              >
+                <Text
+                  style={
+                    [
+                      {
+                        "color": "#000000",
+                      },
+                      {
+                        "fontFamily": "Poppins-SemiBold",
+                      },
+                      {
+                        "fontSize": 15,
+                      },
+                      {
+                        "color": "#FFFFFF",
+                        "textAlign": "center",
+                      },
+                    ]
+                  }
+                >
+                  Reset Password
+                </Text>
+              </View>
+            </View>
+          </View>
+        </View>
+      </View>
+      <RNSScreenStackHeaderConfig
+        backButtonInCustomView={false}
+        backTitleVisible={true}
+        backgroundColor="rgb(255, 255, 255)"
+        color="rgb(0, 122, 255)"
+        direction="ltr"
+        disableBackButtonMenu={false}
+        hidden={false}
+        hideBackButton={false}
+        largeTitleHideShadow={false}
+        title="test"
+        titleColor="rgb(28, 28, 30)"
+        topInsetEnabled={false}
+        translucent={false}
+      />
+    </RNSScreen>
+  </RNSScreenStack>
+</RNCSafeAreaProvider>
+`;
